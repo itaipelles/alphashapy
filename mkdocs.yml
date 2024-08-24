@@ -5,9 +5,11 @@ theme:
 plugins:
   - search
   - mkdocstrings:
+      default_handler: python
       handlers:
         # See: https://mkdocstrings.github.io/python/usage/
         python:
+          paths: [alphashapy]
           options:
             docstring_style: sphinx
 markdown_extensions:

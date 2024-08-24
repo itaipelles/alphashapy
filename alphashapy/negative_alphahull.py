@@ -4,6 +4,14 @@ from shapely.geometry import Point, LineString, MultiPoint
 from shapely import unary_union
 
 def alphahull_negative_alpha(points,alpha):
+    '''
+    Constructs the alpha hull of the given points.
+    
+    :param points: A sequence of points, any array-like with shape (N,2)
+    :param alpha: Any negative number
+    :return: The alpha hull
+    :rtype: shapely.Geometry
+    '''
     assert(alpha<0)
     if len(points) == 1:
         return Point(points[0])
