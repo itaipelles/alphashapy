@@ -1,6 +1,28 @@
 [project]
-name = "placeholder"
+name = "alphashapy"
 version = "0.1"
+description = "A Python package for constructing alpha shapes and alpha hulls for both positive and negative alphas."
+readme = "README.md"
+requires-python = ">=3.8"
+authors = [{name = "Itai Pelles"}]
+license = {text = "Apache-2.0"}
+classifiers = [
+    "License :: OSI Approved :: Apache Software License"
+]
+dependencies = [
+
+]
+
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.build_meta"
+
+[project.urls]
+Homepage = "https://github.com/itaipelles/alphashapy"
+Changelog = "https://github.com/itaipelles/alphashapy/releases"
+Issues = "https://github.com/itaipelles/alphashapy/issues"
+CI = "https://github.com/itaipelles/alphashapy/actions"
+
 
 [project.optional-dependencies]
 test = ["pytest"]
