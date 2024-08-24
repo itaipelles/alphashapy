@@ -10,7 +10,9 @@ classifiers = [
     "License :: OSI Approved :: Apache Software License"
 ]
 dependencies = [
-
+    "numpy",
+    "scipy",
+    "shapely"
 ]
 
 [build-system]
