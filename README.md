@@ -13,7 +13,7 @@ And the implementation relies on Qhull's implementation of Voronoi diagrams, wra
 
 In the future I will try to add alpha shapes for negative alphas as well, today there is no python package that does that.
 
-For alpha shapes with positive alphas, please use [alphashape](https://github.com/bellockk/alphashape) or [alpha_shapes](https://github.com/panosz/alpha_shapes), both are great but do not currently (August 2024) support alpha hulls nor negative alphas.
+For alpha shapes with positive alphas, please use [alphashape](https://github.com/bellockk/alphashape) (which also supports higher dimensions) or [alpha_shapes](https://github.com/panosz/alpha_shapes), both are great but do not currently (August 2024) support alpha hulls nor negative alphas.
 
 ## Installation
 
