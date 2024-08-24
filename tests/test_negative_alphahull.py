@@ -1,7 +1,7 @@
 import pytest
 import numpy as np
 from shapely.geometry import Point, MultiPoint
-from alphashapy.negative_alphahull import alphahull_negative_alpha
+from alphashapy import alphahull_negative_alpha
 
 def test_positive_alpha_assertion():
     pnts = [[0,1],[2,3],[3,4]]

@@ -26,7 +26,7 @@ pip install alphashapy
 
 ```python
 import numpy as np
-from alphashapy.negative_alphahull import alphahull_negative_alpha
+from alphashapy import alphahull_negative_alpha
 points = np.random.rand(100,2)
 alpha = -1
 alphahull_negative_alpha(points, alpha)
