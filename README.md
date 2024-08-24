@@ -9,6 +9,8 @@ A Python package for constructing 2D alpha hulls for negative alphas. The algori
 
 H. Edelsbrunner, D. Kirkpatrick and R. Seidel, "On the shape of a set of points in the plane," in IEEE Transactions on Information Theory, vol. 29, no. 4, pp. 551-559, July 1983, doi: 10.1109/TIT.1983.1056714.
 
+And the implementation relies on Qhull's implementation of Voronoi diagrams, wrapped nicely for Python by Scipy [here](https://docs.scipy.org/doc/scipy/reference/generated/scipy.spatial.Voronoi.html).
+
 In the future I will try to add alpha shapes for negative alphas as well, today there is no python package that does that.
 
 For alpha shapes with positive alphas, please use [alphashape](https://github.com/bellockk/alphashape) or [alpha_shapes](https://github.com/panosz/alpha_shapes), both are great but do not currently (August 2024) support alpha hulls nor negative alphas.
