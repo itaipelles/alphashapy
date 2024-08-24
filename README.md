@@ -5,7 +5,7 @@
 [![Changelog](https://img.shields.io/github/v/release/itaipelles/alphashapy?include_prereleases&label=changelog)](https://github.com/itaipelles/alphashapy/releases)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/itaipelles/alphashapy/blob/main/LICENSE)
 
-A Python package for constructing alpha hulls for negative alphas. The algorithm is from the [paper](https://ieeexplore.ieee.org/abstract/document/1056714):
+A Python package for constructing 2D alpha hulls for negative alphas. The algorithm is from the [paper](https://ieeexplore.ieee.org/abstract/document/1056714):
 
 H. Edelsbrunner, D. Kirkpatrick and R. Seidel, "On the shape of a set of points in the plane," in IEEE Transactions on Information Theory, vol. 29, no. 4, pp. 551-559, July 1983, doi: 10.1109/TIT.1983.1056714.
 
@@ -21,7 +21,13 @@ pip install alphashapy
 ```
 ## Usage
 
-Usage instructions go here.
+```python
+import numpy as np
+from alphashapy.negative_alphahull import alphahull_negative_alpha
+points = np.random.rand(100,2)
+alpha = -1
+alphahull_negative_alpha(points, alpha)
+```
 
 ## Development
 
