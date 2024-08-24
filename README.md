@@ -1,6 +1,7 @@
 # alphashapy
 
 [![PyPI](https://img.shields.io/pypi/v/alphashapy.svg)](https://pypi.org/project/alphashapy/)
+[![Docs](https://readthedocs.org/projects/alphashapy/badge/?version=latest)](https://alphashapy.readthedocs.io/en/latest/)
 [![Tests](https://github.com/itaipelles/alphashapy/actions/workflows/test.yml/badge.svg)](https://github.com/itaipelles/alphashapy/actions/workflows/test.yml)
 [![Changelog](https://img.shields.io/github/v/release/itaipelles/alphashapy?include_prereleases&label=changelog)](https://github.com/itaipelles/alphashapy/releases)
 [![License](https://img.shields.io/badge/license-Apache%202.0-blue.svg)](https://github.com/itaipelles/alphashapy/blob/main/LICENSE)
