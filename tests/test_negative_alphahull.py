@@ -24,8 +24,16 @@ def test_2_points():
         assert alphahull.equals(MultiPoint(pnts))
 
 def test_3_points():
-    #TODO: implement
-    pass
+    pnts = [[0,0],[0,1],[1,0]]
+    alpha = -0.1
+    alphahull = alphahull_negative_alpha(pnts, alpha)
+    # the alphahull should be almost the entire triangle, which has area 0.5
+    assert alphahull.area > 0.48
+    
+    alpha = -2
+    alphahull = alphahull_negative_alpha(pnts, alpha)
+    # the circles of radius 0.5 are now small enough to enter the triangle and eat it from inside, leaving nothing
+    assert alphahull.area < 0.01
 
 def test_4_points_area_decreases():
     pnts = np.random.rand(4,2)
