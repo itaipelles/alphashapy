@@ -11,7 +11,7 @@ H. Edelsbrunner, D. Kirkpatrick and R. Seidel, "On the shape of a set of points 
 
 In the future I will try to add alpha shapes for negative alphas as well, today there is no python package that does that.
 
-For alpha shapes with positive alphas, please use [alphashape](https://github.com/bellockk/alphashape) or [alpha_shapes](https://github.com/panosz/alpha_shapes), both are great but do not support alpha hulls nor negative alphas.
+For alpha shapes with positive alphas, please use [alphashape](https://github.com/bellockk/alphashape) or [alpha_shapes](https://github.com/panosz/alpha_shapes), both are great but do not currently (August 2024) support alpha hulls nor negative alphas.
 
 ## Installation
 
